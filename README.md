@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The OCI MySQL Database System Helm Chart makes it easy to create and manage MySQL Database Systems (MDS) from a Kubernetes cluster deployed within Oracle CLoud Infrastrcuture (OCI). The Kubernetes cluster can be a cluster deployed using Oracle Container Engine for Kuberntes (OKE), or it can be a customer managed cluster deployed on virtual machine instances. 
+The helm-oci-mysql Chart makes it easy to create and manage MySQL Database Systems (MDS) from a Kubernetes cluster deployed within Oracle CLoud Infrastrcuture (OCI). The Kubernetes cluster can be a cluster deployed using Oracle Container Engine for Kuberntes (OKE), or it can be a customer managed cluster deployed on virtual machine instances. 
 
 This Helm chart relies on the OCI Service Operator for Kubernetes (OSOK) and it is a pre-requisite to have OSOK deployed within the cluster to use this Helm chart.
 
