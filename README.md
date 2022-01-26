@@ -1,4 +1,4 @@
-# oci-mysql-db-system-helm
+# helm-oci-mysql
 
 
 ## Introduction
