@@ -13,7 +13,7 @@ spec:
   subnetId: {{ .Values.spec.subnetId | required  "A shapeName is a required " }}
   configuration:
     id: {{ .Values.spec.configuration.id | required  "A configuration,id is a required " }}
-  availabilityDomain: {{ .Values.spec.availabilityDomain | required "A configuration,id is a required " }} 
+  availabilityDomain: {{ .Values.spec.availabilityDomain | required "An availabilityDomai is a required " }} 
   {{- if  .Values.spec.faultDomain }}
   faultDomain: {{ .Values.spec.faultDomain }} 
   {{- end }}
@@ -33,3 +33,7 @@ spec:
   isHighlyAvailable: {{ .Values.spec.isHighlyAvailable }}
   port: {{ .Values.spec.port }}
   portX: {{ .Values.spec.portX }}
+  freeformTags:
+    name: "{{ .Values.tag}}-{{randAlphaNum 10 | lower }}" 
+    description: "ArchitectureCenterTagNamespace"
+    compartment_id: {{ .Values.spec.compartmentId }}
