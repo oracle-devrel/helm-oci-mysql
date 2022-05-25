@@ -20,11 +20,11 @@ This Helm chart relies on the OCI Service Operator for Kubernetes (OSOK) and it 
 
 **1. Clone or download the contents of this repo** 
      
-     git clone https://github.com/chiphwang1/oci-mysql-db-system-helm.git
+     git clone https://github.com/oracle-devrel/helm-oci-mysql.git
 
 **2. Change to the directory that holds the Helm Chart** 
 
-      cd ./oci-mysql-db-system-helm
+      cd ./helm-oci-mysql
 
 **3. Populate the values.yaml file with information to deploy the MDS resource**
 
